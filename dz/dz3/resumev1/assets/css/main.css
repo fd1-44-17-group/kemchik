@@ -1,0 +1,38 @@
+@import url('https://fonts.googleapis.com/css?family=Lato');
+@import url('https://fonts.googleapis.com/css?family=Lobster');
+@import url('https://fonts.googleapis.com/css?family=Comfortaa');
+@import url('https://fonts.googleapis.com/css?family=Playfair+Display+SC');
+@import url('https://fonts.googleapis.com/css?family=Bad+Script');
+@import url('https://fonts.googleapis.com/css?family=Pangolin');
+
+.lichno {
+    background-color: #F4A460;
+    border: solid;
+    font-family: 'Lato', sans-serif;
+}
+
+.education {
+    background-color: #F0E68C;
+   font-family: 'Lobster', cursive;
+   
+}
+
+.experience {
+    background-color: #C0C0C0;
+    font-family: 'Comfortaa', cursive;
+}
+
+.knowledge {
+    background-color: #E9967A;
+    font-family: 'Playfair Display SC', serif;
+}
+
+.interests {
+    background-color: #FFEBCD;
+    font-family: 'Bad Script', cursive;
+}
+
+.other {
+    background-color: #ADFF2F;
+    font-family: 'Pangolin', cursive;
+}
