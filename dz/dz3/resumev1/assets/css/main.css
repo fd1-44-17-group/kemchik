@@ -7,32 +7,41 @@
 
 .lichno {
     background-color: #F4A460;
-    border: solid;
+    border-style: solid;
     font-family: 'Lato', sans-serif;
+    
 }
 
 .education {
     background-color: #F0E68C;
    font-family: 'Lobster', cursive;
+   border-style: dotted;
    
 }
 
 .experience {
     background-color: #C0C0C0;
     font-family: 'Comfortaa', cursive;
+    border-style: double;
 }
 
 .knowledge {
     background-color: #E9967A;
     font-family: 'Playfair Display SC', serif;
+    border-style: solid;
+    border-color: green;
 }
 
 .interests {
     background-color: #FFEBCD;
     font-family: 'Bad Script', cursive;
+    border: solid blue 3px;
 }
 
 .other {
     background-color: #ADFF2F;
     font-family: 'Pangolin', cursive;
+    border: solid;
+    border-bottom-style: outset;
+    border-bottom-color: red;
 }
