@@ -1,0 +1,78 @@
+.ramka {
+    width: 100%;
+}
+
+.ramka_bottom {
+    width: 100%;
+    height: 100%;
+    background-image: url("../img/ramka.png");
+    background-repeat: no-repeat;
+    background-position: left bottom;
+}
+
+.ramka_right_bottom {
+    width: 100%;
+    height: 100%;
+    background-image: url("../img/ramka.8.png");
+    background-repeat: no-repeat;
+    background-position: right bottom;
+}
+
+
+.ramka_right_top {
+    width: 100%;
+    height: 100%;
+    background-image: url("../img/ramka.6.png");
+    background-repeat: no-repeat;
+    background-position: right top;
+}
+
+.ramka_left_top {
+    width: 100%;
+    height: 100%;
+    background-image: url("../img/ramka.7.png");
+    background-repeat: no-repeat;
+    background-position: left top;
+}
+
+.top {
+
+    height: 100%;
+    background-image: url("../img/ramka.1.png");
+    background-repeat: no-repeat;
+    background-repeat: repeat-x;
+    background-position: top;
+
+}
+
+.bottom {
+    height: 100%;
+    background-image: url("../img/ramka.4.png");
+    background-repeat: no-repeat;
+    background-repeat: repeat-x;
+    background-position: bottom;
+
+}
+
+.left {
+    height: 100%;
+    background-image: url("../img/ramka.3.png");
+    background-repeat: no-repeat;
+    background-repeat: repeat-y;
+    background-position: left;
+
+}
+
+.right {
+    height: 100%;
+    background-image: url("../img/ramka.2.png");
+    background-repeat: no-repeat;
+    background-repeat: repeat-y;
+    background-position: right;
+}
+
+.text{
+    padding: 50px;
+    text-align: center
+}
+
