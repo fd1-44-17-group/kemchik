@@ -1,0 +1,17 @@
+.right {
+    margin-right: -20px;
+    padding-left: 15px;
+}
+
+.left {
+    margin-left: -14px;
+}
+
+.twoleft {
+    margin-left: -28px;
+}
+
+.tworight {
+    margin-right: -30px;
+    padding-left: 28px;
+}
