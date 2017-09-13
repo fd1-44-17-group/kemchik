@@ -1,0 +1,13 @@
+.chess{
+    background-color: black;
+}
+
+.table tr{
+   height: 40px;
+   text-align: center;
+}
+
+.table td{
+   width: 40px;
+   text-align: center;
+}
