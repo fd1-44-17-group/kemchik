@@ -1,13 +1,52 @@
-.chess{
-    background-color: black;
+.chess {
+    background-color: grey;
 }
 
-.table tr{
-   height: 40px;
-   text-align: center;
+.table tr {
+    height: 50px;
+    text-align: center;
 }
 
-.table td{
-   width: 40px;
-   text-align: center;
+.table td {
+    width: 50px;
+    text-align: center;
+}
+
+.figure {
+    background-image: url("../img/chess.png");
+    background-repeat: no-repeat;
+    width: 50px;
+    height: 50px;
+}
+
+.lod {
+    background-position-x: -100px;
+}
+
+.horse{
+    background-position-x: -210px;
+}
+
+.slon{
+    background-position-x: -154px;
+}
+
+.carol{
+    background-position-x: 7px;
+}
+
+.queen{
+    background-position-x: -47px;
+}
+
+.peshka{
+     background-position-x: -260px;
+}
+
+.black {
+    background-position-y: 0px;
+}
+
+.white{
+    background-position-y: -50px;
 }
