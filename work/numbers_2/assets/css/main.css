@@ -1,0 +1,24 @@
+.left{
+    float: left;
+}
+
+.width{
+    width: 25px;
+}
+
+.m_right{
+    margin-left: 10px;
+}
+
+.m_left{
+    margin-left: -20px;
+}
+
+.m_right_two{
+    margin-left: 30px;
+}
+
+.m_left_two{
+    margin-left: -50px;
+}
+
