@@ -11,12 +11,9 @@
 
 }
 
-.cell {
-    height: 50px;
-    width: 50px;
-    text-align: center;
+.row{
     position: relative;
-
+    height: 50px;
 }
 
 .cell_a {
@@ -25,14 +22,6 @@
     text-align: center;
     position: absolute;
 
-}
-
-.right {
-    left: 50px;
-}
-
-.down {
-    bottom: -50px;
 }
 
 .figure {
@@ -70,7 +59,7 @@
     background-position-y: 0px;
 }
 
-.white {
+.white_figure {
     background-position-y: -50px;
 }
 
@@ -108,39 +97,4 @@
 
 .cell_r_a_10 {
     left: 450px;
-}
-
-.cell_d_a_2 {
-    top: 50px;
-}
-
-.cell_d_a_3 {
-    top: 100px;
-}
-.cell_d_a_4 {
-    top: 150px;
-}
-
-.cell_d_a_5 {
-    top: 200px;
-}
-
-.cell_d_a_6 {
-    top: 250px;
-}
-
-.cell_d_a_7 {
-    top: 300px;
-}
-
-.cell_d_a_8 {
-    top: 350px;
-}
-
-.cell_d_a_9 {
-    top: 400px;
-}
-
-.cell_d_a_10 {
-    top: 450px;
 }
