@@ -1,0 +1,21 @@
+.desk{
+    width: 30em;
+    height: 30em;
+    border: solid;
+    
+}
+
+.row{
+    height: 10%;
+}
+
+.cell{
+    width: 10%;
+    height: 100%;
+    float: left;
+    text-align: center;
+}
+
+.black{
+    background-color: grey;
+}

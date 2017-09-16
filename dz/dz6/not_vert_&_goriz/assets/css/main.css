@@ -1,0 +1,16 @@
+.desk{
+    width: 500px;
+    height: 500px;
+    border: solid;
+}
+
+.cell{
+    height: 10%;
+    width: 10%;
+    float: left;
+    text-align: center;
+}
+
+.black{
+    background-color: grey;
+}
