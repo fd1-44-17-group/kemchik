@@ -1,22 +1,23 @@
-.desk{
-    width: 500px;
-    height: 500px;
+.desk {
+    max-width: 500px;
     border: solid;
+    margin: auto;
+    height: 500px;
 }
 
-.row{
+.row {
     height: 10%;
     width: 100%;
     text-align: center;
 }
 
-.column{
+.column {
     width: 10%;
     height: 100%;
     float: left;
     text-align: center;
 }
 
-.black{
+.black {
     background-color: grey;
 }
