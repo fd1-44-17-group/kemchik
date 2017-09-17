@@ -1,0 +1,23 @@
+.desk {
+    max-width: 500px;
+    border: solid;
+    margin: auto;
+    height: 500px;
+}
+
+.row {
+    height: 10%;
+    width: 100%;
+    text-align: center;
+}
+
+.column {
+    width: 10%;
+    height: 100%;
+    float: left;
+    text-align: center;
+}
+
+.black {
+    background-color: grey;
+}
