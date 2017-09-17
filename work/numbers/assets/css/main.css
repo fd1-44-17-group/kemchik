@@ -1,0 +1,32 @@
+.left{
+    float: left;
+}
+
+.right{
+    float: right;
+   
+}
+
+.both{
+    float: both;
+}
+
+.cl_r{
+    clear: right;
+}
+
+.cl_l{
+    clear: left;
+}
+
+.top{
+    margin-top: -18px;
+}
+
+.m_left{
+    margin-left: 10px;
+}
+
+.width{
+    width: 25px;
+}
