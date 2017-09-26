@@ -59,3 +59,18 @@ p {
      color: blue;
      text-align: center;
  }
+ 
+ .menu_bottom{
+     display: none;
+ }
+ 
+ @media screen and (max-width: 400px){
+    .menu{
+        display: none;
+    }
+    
+    .menu_bottom{
+        display: block;
+        background-color: #F0E68C;
+    }
+ }
