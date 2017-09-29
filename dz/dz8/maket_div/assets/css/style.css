@@ -1,0 +1,65 @@
+body {
+    margin: 0;
+}
+
+h1 {
+    text-align: center;
+}
+
+h4 {
+    margin-left: 8px;
+}
+
+p {
+    margin-left: 8px;
+}
+
+.top {
+
+    padding: 20px;
+    background-color: #87CEEB;
+    margin: 0;
+    width: 100%;
+}
+
+.center {
+    width: 100%;
+    display: inline-block;
+}
+
+.menu {
+    width: 150px;
+    float: left;
+    background-color: #F0E68C;
+    padding-bottom: 100%;
+    position: relative;
+}
+
+.main_content {
+    width: 100%;
+    position: relative;
+
+}
+
+.bottom {
+    width: 100%;
+    background-color: #87CEEB;
+    padding: 40px;
+}
+
+.image {
+    float: left;
+    margin-left: 8px;
+    margin-right: 8px;
+    max-width: 30%;
+}
+
+.text {
+    text-transform: uppercase;
+    font-size: 25px;
+    margin: 0;
+    color: blue;
+    text-align: center;
+}
+
+
