@@ -1,0 +1,45 @@
+.block_1 {
+  
+    border: solid;
+    width: 5%;
+    height: 90vh;
+    float: left;
+    margin-right: 1%;
+
+}
+
+.block_2 {
+    border: solid;
+    width: 10%;
+    height: 90vh;
+    float: left;
+    margin-right: 1%;
+}
+
+
+.block_3 {
+    border: solid;
+    width: 15%;
+    height: 90vh;
+    float: left;
+    margin-right: 1%;
+}
+
+
+.block_4 {
+    border: solid;
+    width: 20%;
+    height: 90vh;
+    float: left;
+    margin-right: 1%;
+}
+
+
+.block_5 {
+    border: solid;
+    width: 40%;
+    height: 90vh;
+    float: left;
+    
+}
+

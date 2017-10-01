@@ -1,0 +1,23 @@
+body{
+    background-color: #DCDCDC;
+}
+
+
+.fixed {
+    position: fixed;
+    border:solid;
+    width: 100px;
+    margin-top: 50%;
+    transform: translateY(-50%);
+    margin-right: 8px;
+    margin-left: 4px;
+    background-color: white;
+}
+
+
+.main_content {
+    width: 100%;
+    margin-left: 120px;
+    
+}
+
