@@ -1,45 +1,60 @@
 .block_1 {
-  
+    position: relative;
     border: solid;
-    width: 5%;
+    width: 3vw;
     height: 90vh;
-    float: left;
-    margin-right: 1%;
-
+    float: right;
+    margin-right: 1vw;
 }
 
 .block_2 {
+    position: relative;
     border: solid;
-    width: 10%;
+    width: 10vw;
     height: 90vh;
-    float: left;
-    margin-right: 1%;
+    float: right;
+    margin-right: 1vw;
 }
 
 
 .block_3 {
+    position: relative;
     border: solid;
-    width: 15%;
+    width: 15vw;
     height: 90vh;
-    float: left;
-    margin-right: 1%;
+    float: right;
+    margin-right: 1vw;
+
+
 }
 
 
 .block_4 {
+    position: relative;
     border: solid;
-    width: 20%;
+    width: 20vw;
     height: 90vh;
-    float: left;
-    margin-right: 1%;
+    float: right;
+    margin-right: 1vw;
+
+
 }
 
 
 .block_5 {
+    position: relative;
     border: solid;
-    width: 40%;
+    width: 30vw;
     height: 90vh;
-    float: left;
-    
+    float: right;
+    margin-right: 1vw;
+
 }
 
+
+
+@media screen and (max-width: 400px){
+    .block_5, .block_4, .block_3, .block_2, .block_1{
+        float: none;
+    }
+}
