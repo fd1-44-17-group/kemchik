@@ -1,0 +1,147 @@
+.folder{
+    position: relative;
+}
+
+.back{
+    position: absolute;
+    width: 300px;
+    height: 200px;
+    background-color: #B8860B;
+    margin: 50px;
+    border-radius: 20px;
+}
+
+.back:after{
+    content: "";
+    display: block;
+     position: absolute;
+    width: 100px;
+    height: 100px;
+    background-color: #B8860B;
+    margin-top: -20px;
+    border-radius: 20px;
+}
+
+.file_1{
+    position: absolute;
+    width: 160px;
+    height: 130px;
+    background-color: grey;
+    border: solid 1px white;
+    border-radius: 7px;
+    margin-top: 70px;
+    margin-left: 130px;
+}
+
+
+.file_1:hover{
+   
+    margin-left: 270px;
+}
+
+.file_2{
+    position: absolute;
+    width: 200px;
+    height: 130px;
+    background-color: grey;
+    border: solid 1px white;
+    border-radius: 7px;
+    margin-top: 95px;
+    margin-left: 110px;
+}
+
+.file_2:hover{
+   
+    margin-left: 270px;
+}
+
+
+.file_3{
+    position: absolute;
+    width: 230px;
+    height: 130px;
+    background-color: grey;
+    border: solid 1px white;
+    border-radius: 7px;
+    margin-top: 120px;
+    margin-left: 95px;
+}
+
+.file_3:hover{
+    margin-left: 300px; 
+}
+
+
+.top{
+     position: absolute;
+    width: 300px;
+    height: 200px;
+    background-color: yellow;
+    margin: 50px;
+    margin-top: 150px;
+    border-radius: 20px;
+}
+
+.red_ball{
+    position: absolute;
+    width: 9px;
+    height: 9px;
+    background-color: red;
+    border-radius: 100%;
+    margin-top: 3px;
+    
+    
+}
+
+.yellow_ball{
+    position: absolute;
+    width: 9px;
+    height: 9px;
+    background-color: yellow;
+    border-radius: 100%;
+    margin-top: 3px;
+    margin-left: 12px;
+}
+
+.green_ball{
+    position: absolute;
+    width: 9px;
+    height: 9px;
+    background-color: green;
+    border-radius: 100%;
+    margin-top: 3px;
+    margin-left: 23px;
+}
+
+.menu{
+    width: 10px;
+    height: 2px;
+    background-color: white;
+    position: absolute;
+    margin-top: 3px;
+    margin-left: 90%;
+    
+}
+
+.menu:after{
+    content:"";
+    display:block;
+    width: 10px;
+    height: 2px;
+    background-color: white;
+    position: absolute;
+    margin-top: 9px;
+    margin-left: 0%;
+}
+
+.menu:before{
+    content:"";
+    display:block;
+    width: 10px;
+    height: 2px;
+    background-color: white;
+    position: absolute;
+    margin-top: 5px;
+    margin-left: 0%;
+}
+

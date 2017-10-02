@@ -1,0 +1,60 @@
+.block_1 {
+    position: relative;
+    border: solid;
+    width: 3vw;
+    height: 90vh;
+    float: right;
+    margin-right: 1vw;
+}
+
+.block_2 {
+    position: relative;
+    border: solid;
+    width: 10vw;
+    height: 90vh;
+    float: right;
+    margin-right: 1vw;
+}
+
+
+.block_3 {
+    position: relative;
+    border: solid;
+    width: 15vw;
+    height: 90vh;
+    float: right;
+    margin-right: 1vw;
+
+
+}
+
+
+.block_4 {
+    position: relative;
+    border: solid;
+    width: 20vw;
+    height: 90vh;
+    float: right;
+    margin-right: 1vw;
+
+
+}
+
+
+.block_5 {
+    position: relative;
+    border: solid;
+    width: 30vw;
+    height: 90vh;
+    float: right;
+    margin-right: 1vw;
+
+}
+
+
+
+@media screen and (max-width: 400px){
+    .block_5, .block_4, .block_3, .block_2, .block_1{
+        float: none;
+    }
+}

@@ -1,0 +1,35 @@
+.main{
+    display: inline-block;
+}
+
+.block_2{
+    width: 0;
+    height: 0;
+    border-left: solid 20vw white;
+    border-right: solid 20vw white;
+    border-top: solid 50vh green;
+    position: relative;
+    float: left
+}
+
+.block_1{
+    width: 0;
+    height: 0;
+    border-left: solid 10vw white;
+    border-right: solid 10vw white;
+    border-bottom: solid 25vh green;
+     border-top: solid 25vh white;
+    position: relative;
+    float: left
+}
+
+.block_3{
+    width: 0;
+    height: 0;
+    border-left: solid 10vw white;
+    border-right: solid 10vw white;
+    border-bottom: solid 25vh green;
+    border-top: solid 25vh white;
+    position: relative;
+    float: left
+}
