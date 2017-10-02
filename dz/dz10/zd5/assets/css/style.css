@@ -1,0 +1,31 @@
+.number{
+    position: relative;
+    border-bottom: solid 4px #E6E6FA; 
+    padding-bottom: 17px;
+    width: 340px;
+    padding-left: 8px;
+  
+    
+}
+.number>div{
+    display: inline;
+    position: relative;
+     border-bottom: solid 4px #E6E6FA; 
+    padding-bottom: 20px;
+   
+}
+.number>div:hover{
+     border-bottom: solid 4px orange; 
+    padding-bottom: 20px;
+}
+
+a{
+    font-size: 26px;
+    padding-right: 8px;
+    padding-left: 8px;
+    text-decoration: underline;
+    color: blue;
+    text-align: center;
+}
+
+

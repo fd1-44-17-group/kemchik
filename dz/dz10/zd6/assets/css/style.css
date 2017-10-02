@@ -1,0 +1,90 @@
+.main{
+    position: relative;
+    width: 300px;
+   
+}
+
+h1{
+    position: absolute;
+    color: white;
+    text-align: center;
+    margin-top: 7px;
+    margin-left: 50%;
+    transform: translateX(-50%);
+    z-index: 2;
+}
+
+.green{
+    position: relative;
+    height: 50px;
+    background-color: #2E8B57;
+}
+
+.dark{
+    background-color: black;
+    height: 40px;
+    position: relative;
+}
+
+.dark p{
+    position: absolute;
+    z-index: 2;
+    color:white;
+    font-size: 20px;
+    margin-top: 8px;
+    margin-left: 50%;
+    transform: translateX(-50%);
+}
+
+.dark:after{
+   content: "";
+   display: block;
+   width: 0;
+   height: 0;
+   border: solid 15px black;
+   border-right: solid 20px #2E8B57;
+   position: absolute;
+   margin-top: 5px;
+   z-index: 5;
+}
+
+.dark:before{
+   content: "";
+   display: block;
+   width: 0;
+   height: 0;
+   border: solid 15px black;
+   border-left: solid 20px #2E8B57;
+   position: absolute;
+   margin-top: 5px;
+   margin-left: 260px;
+   z-index: 5;
+}
+
+.grey{
+    height: 200px;
+    position: relative;
+    background-color: #E6E6FA;
+}
+
+a{
+    font-size: 27px;
+    padding-left: 10px;
+}
+
+.grey>div:nth-child(1) a{
+    padding-left: 22px;
+}
+
+.grey>div:nth-child(2)>a:nth-child(-n+2){
+    padding-left: 22px;
+}
+
+a:hover{
+   background-color: #2E8B57;
+}
+
+.row{
+    padding-top: 10px;
+    margin-left: 30px;
+}

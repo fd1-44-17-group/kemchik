@@ -1,0 +1,42 @@
+.main{
+    position: relative;
+    width: 430px;
+    height: 100px
+}
+
+.skidki{
+    float: right;
+    border: dotted 3px #DC143C;
+    border-radius: 10px;
+    padding-left: 15px;
+    padding-right: 15px;
+    height: 100px
+}
+
+.text{
+    font-size: 20px;
+    font-weight: bold;
+   color: #2F4F4F;
+ 
+}
+
+.red_text{
+    color: #DC143C;
+    font-size: 20px;
+    white-space: nowrap;
+    font-weight: bold;
+}
+
+img{
+    transform: translateY(9px);
+}
+
+.proc{
+    color: #DC143C;
+    font-size: 40px;
+    text-align: center;
+    font-weight: bold;
+    padding-top: 0;
+    padding-bottom: 0;
+    transform: translateY(-39px)
+}
