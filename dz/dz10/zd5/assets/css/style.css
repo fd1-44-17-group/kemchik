@@ -17,6 +17,7 @@
 .number>div:hover{
      border-bottom: solid 4px orange; 
     padding-bottom: 20px;
+    
 }
 
 a{
@@ -28,4 +29,10 @@ a{
     text-align: center;
 }
 
+
+a:hover{
+    background-color: orange;
+    text-decoration: none;
+    color: white;
+}
 

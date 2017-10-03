@@ -1,6 +1,6 @@
 .main{
     position: relative;
-    width: 300px;
+    width: 55vw;
    
 }
 
@@ -8,21 +8,22 @@ h1{
     position: absolute;
     color: white;
     text-align: center;
-    margin-top: 7px;
-    margin-left: 50%;
+    margin-top: 2vw;
+    margin-left: 26vw;
     transform: translateX(-50%);
     z-index: 2;
+    font-size: 7vw;
 }
 
 .green{
     position: relative;
-    height: 50px;
+    height: 10vw;
     background-color: #2E8B57;
 }
 
 .dark{
     background-color: black;
-    height: 40px;
+    height: 8vw;
     position: relative;
 }
 
@@ -30,9 +31,9 @@ h1{
     position: absolute;
     z-index: 2;
     color:white;
-    font-size: 20px;
-    margin-top: 8px;
-    margin-left: 50%;
+    font-size: 4vw;
+    margin-top: 2vw;
+    margin-left: 27vw;
     transform: translateX(-50%);
 }
 
@@ -41,10 +42,10 @@ h1{
    display: block;
    width: 0;
    height: 0;
-   border: solid 15px black;
-   border-right: solid 20px #2E8B57;
+   border: solid 3vw black;
+   border-right: solid 4vw #2E8B57;
    position: absolute;
-   margin-top: 5px;
+   margin-top: 1vw;
    z-index: 5;
 }
 
@@ -53,31 +54,31 @@ h1{
    display: block;
    width: 0;
    height: 0;
-   border: solid 15px black;
-   border-left: solid 20px #2E8B57;
+   border: solid 3vw black;
+   border-left: solid 4vw #2E8B57;
    position: absolute;
-   margin-top: 5px;
-   margin-left: 260px;
+   margin-top: 1vw;
+   margin-left: 46vw;
    z-index: 5;
 }
 
 .grey{
-    height: 200px;
+    /*height: 40vw;*/
     position: relative;
     background-color: #E6E6FA;
 }
 
 a{
-    font-size: 27px;
-    padding-left: 10px;
+    font-size: 5vw;
+    padding-left: 1vw;
 }
 
 .grey>div:nth-child(1) a{
-    padding-left: 22px;
+    padding-left: 3.7vw;
 }
 
 .grey>div:nth-child(2)>a:nth-child(-n+2){
-    padding-left: 22px;
+    padding-left: 3.7vw;
 }
 
 a:hover{
@@ -85,7 +86,7 @@ a:hover{
 }
 
 .row{
-    padding-top: 10px;
-    margin-left: 30px;
+    padding-top: 2vw;
+    margin-left: 4vw;
 }
 

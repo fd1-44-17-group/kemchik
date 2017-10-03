@@ -1,0 +1,29 @@
+.main{
+    height: 40vw;
+    width: 40vw;
+    background-color: #6B8E23;
+    position: relative;
+    
+}
+
+.orange{
+    position: absolute;
+    width: 30vw;
+    height: 30vw;
+    background-color: orange;
+    margin-left: 5vw;
+    margin-top: 5vw;
+    border-radius: 100%
+    
+}
+
+.black{
+    position: absolute;
+    width: 20vw;
+    height: 20vw;
+    background-color: black;
+    border-radius: 100%;
+    margin-left: 5vw;
+    margin-top: 5vw;
+    
+}

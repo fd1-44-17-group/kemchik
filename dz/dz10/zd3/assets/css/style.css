@@ -1,12 +1,12 @@
 .zamok{
     position: absolute;
     margin-top: 30px;
-    margin-left: 2vw;
+    margin-left: 8px;
 }
 
 .main{
-    width: 5.5vw;
-    height: 5.5vw;
+    width: 35px;
+    height: 35px;
     background-color: green;
     border-radius: 3px;
     position: relative;
@@ -17,12 +17,12 @@
     content: "";
     display: block;
     position: absolute;
-    width: 2vw;
-    height: 2vw;
+    width: 13px;
+    height: 13px;
     border-radius: 100%;
     background-color: #e1f5e2;
-    margin-top: 1vw;
-    margin-left: 1.7vw;
+    margin-top: 9px;
+    margin-left: 11px;
     z-index: 2
 }
 
@@ -40,11 +40,11 @@
 
 .zakr{
     position: absolute;
-    width: 25px;
+    width: 24px;
     height: 30px;
     border: solid 5px green;
     border-radius: 17px;
-    margin-top: -60px;
+    margin-top: -55px;
     z-index:1;
 }
 
@@ -55,7 +55,7 @@
     width: 7px;
     height: 7px;
     position: absolute;
-    margin-top: 12.5px;
+    margin-top: 8px;
     margin-left: 23px;
 }
 
