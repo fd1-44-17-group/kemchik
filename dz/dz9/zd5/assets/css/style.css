@@ -1,0 +1,117 @@
+.main {
+    width: 500px;
+    height: 500px;
+    position: relative;
+}
+
+.smile {
+    width: 200px;
+    height: 200px;
+    border: solid 5px;
+    border-radius: 100%;
+}
+
+.mouth {
+    width: 120px;
+    height: 120px;
+    border: solid 5px;
+    border-radius: 100%;
+    position: absolute;
+    margin-top: 12%;
+    margin-left: 7.5%;
+
+}
+
+.mouth:after {
+    content: "";
+    display: block;
+    width: 140px;
+    height: 70px;
+    position: absolute;
+    /*border: solid;*/
+    background-color: white;
+    margin-top: -4%;
+    margin-left: -4%;
+}
+
+.eye_left {
+    width: 40px;
+    height: 40px;
+    border: solid 5px;
+    border-radius: 100%;
+    position: absolute;
+    margin-top: -30%;
+    margin-left: 7%;
+}
+
+.eye_left:after {
+    content: "";
+    display: block;
+    width: 55px;
+    height: 40px;
+    background-color: white;
+    /*border: solid;*/
+    margin-left: -25%;
+    margin-top: 45%;
+}
+
+
+.eye_right {
+    width: 40px;
+    height: 40px;
+    border: solid 5px;
+    border-radius: 100%;
+    position: absolute;
+    margin-top: -30%;
+    margin-left: 24%;
+}
+
+.eye_right:after {
+    content: "";
+    display: block;
+    width: 55px;
+    height: 40px;
+    background-color: white;
+    /*border: solid;*/
+    margin-left: -25%;
+    margin-top: 45%;
+}
+
+.ball {
+    width: 5px;
+    height: 5px;
+    background-color: black;
+    border-radius: 100%;
+    position: absolute;
+
+}
+
+.ball_eye_left_right{
+    margin-top: -26%;
+    margin-left: 15.9%;
+}
+
+.ball_eye_left_left{
+    margin-top: -26%;
+    margin-left: 7%;
+}
+
+.ball_eye_right_left{
+    margin-top: -26%;
+    margin-left: 24%;
+}
+
+.ball_eye_right_right{
+    margin-top: -26%;
+    margin-left: 33%;
+}
+
+.ball_mouth_left{
+    margin-top: -16.5%;
+    margin-left: 7.6%;
+}
+
+.ball_mouth_right{
+    margin-top: -16.5%;
+    margin-left: 32.5%;
+}
