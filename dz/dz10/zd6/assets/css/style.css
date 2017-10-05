@@ -1,0 +1,92 @@
+.main{
+    position: relative;
+    width: 55vw;
+   
+}
+
+h1{
+    position: absolute;
+    color: white;
+    text-align: center;
+    margin-top: 2vw;
+    margin-left: 26vw;
+    transform: translateX(-50%);
+    z-index: 2;
+    font-size: 7vw;
+}
+
+.green{
+    position: relative;
+    height: 10vw;
+    background-color: #2E8B57;
+}
+
+.dark{
+    background-color: black;
+    height: 8vw;
+    position: relative;
+}
+
+.dark p{
+    position: absolute;
+    z-index: 2;
+    color:white;
+    font-size: 4vw;
+    margin-top: 2vw;
+    margin-left: 27vw;
+    transform: translateX(-50%);
+}
+
+.dark:after{
+   content: "";
+   display: block;
+   width: 0;
+   height: 0;
+   border: solid 3vw black;
+   border-right: solid 4vw #2E8B57;
+   position: absolute;
+   margin-top: 1vw;
+   z-index: 5;
+}
+
+.dark:before{
+   content: "";
+   display: block;
+   width: 0;
+   height: 0;
+   border: solid 3vw black;
+   border-left: solid 4vw #2E8B57;
+   position: absolute;
+   margin-top: 1vw;
+   margin-left: 46vw;
+   z-index: 5;
+}
+
+.grey{
+    /*height: 40vw;*/
+    position: relative;
+    background-color: #E6E6FA;
+}
+
+a{
+    font-size: 5vw;
+    padding-left: 1vw;
+}
+
+.grey>div:nth-child(1) a{
+    padding-left: 3.7vw;
+}
+
+.grey>div:nth-child(2)>a:nth-child(-n+2){
+    padding-left: 3.7vw;
+}
+
+a:hover{
+   background-color: #2E8B57;
+}
+
+.row{
+    padding-top: 2vw;
+    margin-left: 4vw;
+}
+
