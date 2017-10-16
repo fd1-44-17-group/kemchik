@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+</head>
+<script>
+    var name = prompt("Введите имяs:");
+    var surname = prompt("Введите фамилию:");
+    var patronymic = prompt("Введите отчество:")
+    console.log(surname + " " + name + " " + patronymic);
+    var age = prompt("Введите ваш возраст:");
+    
+    if (parseInt(age)) {
+        if (age > 200 || age < 0) {
+            console.log("столько не живут!");
+        }
+        else {
+            console.log("Ваш возраст: " + age);
+        }
+    }
+    else {
+        console.log("не корректно введен возраст!");s
+    }
+</script>
+
+<body>
+
+</body>
+
+</html>
