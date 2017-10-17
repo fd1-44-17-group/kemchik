@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+</head>
+<script>
+    var arr = []
+    for (var i = 1; i < 10; i++) {
+        arr.push(i)
+    }
+
+     var arr_2 = []
+     
+     //с использованием continue
+    // for (var i = 0; i < arr.length; i++) {
+    //     if (arr[i] % 2 != 0) {
+    //         continue;
+    //     }
+    //     else {
+    //         arr_2.push(arr[i])
+    //     }
+    // }
+
+
+    //без использования continue
+    for (var i = 0; i < arr.length; i++) {
+        if (arr[i] % 2 == 0) {
+            arr_2.push(arr[i])
+        }
+    }
+
+    var rez = "";
+    for (var i = 0; i < arr_2.length; i++) {
+        rez += arr_2[i] + " ";
+    }
+
+    alert(rez)
+</script>
+
+<body>
+
+</body>
+
+</html>

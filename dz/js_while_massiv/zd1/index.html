@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+</head>
+<script>
+    var age;
+
+    //цикл через for
+    for (;;) {
+        age = prompt('Введите возраст: ');
+        if (parseInt(age)) {
+            if (age > 200 || age < 0) {
+                console.log("столько не живут!");
+            }
+            else {
+                console.log("Ваш возраст: " + age);
+                break;
+            }
+        }
+        else {
+            console.log("не корректно введен возраст!");
+        }
+    }
+
+
+    //цикл через while
+    // while (true) {
+    //     age = prompt('Введите возраст: ');
+    //     if (parseInt(age)) {
+    //         if (age > 200 || age < 0) {
+    //             console.log("столько не живут!");
+    //         }
+    //         else {
+    //             console.log("Ваш возраст: " + age);
+    //             break;
+    //         }
+    //     }
+    //     else {
+    //         console.log("не корректно введен возраст!");
+    //     }
+
+    // }
+
+    //цикл через do...while
+    // do {
+    //     age = prompt('Введите возраст: ');
+    //     if (parseInt(age)) {
+    //         if (age > 200 || age < 0) {
+    //             console.log("столько не живут!");
+    //         }
+    //         else {
+    //             console.log("Ваш возраст: " + age);
+    //             break;
+    //         }
+    //     }
+    //     else {
+    //         console.log("не корректно введен возраст!");
+    //     }
+    // } while (true)
+</script>
+
+<body>
+
+</body>
+
+</html>

@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+</head>
+<script>
+    var country = {};
+    var choise
+    var keies = ' '
+    country = {
+        Беларусь: [207600, 9505200],
+        Россия: [17125191, 146804372]
+    }
+
+    while (true) {
+        choise = prompt('Введите страну: ')
+        if (choise == 'справочник') {
+            for (var key in country) {
+                keies += key + " "
+            }
+            alert(keies)
+            break;
+        }
+        else {
+            if (country[choise] == undefined) {
+                alert('Ошибка!')
+            }
+            else {
+                alert(country[choise][0] + " км  " + country[choise][1] + " чел")
+                break;
+            }
+        }
+    }
+</script>
+
+<body>
+
+</body>
+
+</html>
